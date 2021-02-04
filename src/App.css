@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+@import url("http://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("http://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i");
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* background-color: #fff; */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .wrapper{
+    background: url('images.jpg');
+    height: 80vh;
+    text-align: center;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  input{
+    background: transparent;
+    font-size: medium;
+    color: #FFF;
+    top: 40vh;
+     bottom: 40vh;
+    position: relative;
+    border: 1px solid #FFF;
+    display: inline-block;
+    
+    padding: 12px;
   }
-  to {
-    transform: rotate(360deg);
+  textarea{
+    background: transparent;
+    color: #FFF;
+    font-size: large;
+    top: 40vh;
+     bottom: 40vh;
+    position: relative;
+    border: 1px solid #FFF;
+    display: inline-block;
+    
+    padding: 22px;
+  }
+  button{
+    background: transparent;
+    font-size: medium;
+    color: #FFF;
+    top: 40vh;
+     bottom: 40vh;
+    position: relative;
+    border: 1px solid #FFF;
+    display: inline-block;
+    padding: 8px;
+  }
+  .m{
+      display: flex;
+      justify-content:center;
+      margin: 8px;
+  }
+  .note{
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    padding: 10px;
+    width:50%;
+    margin:16px;
+   
+ 
+   
+  }
+  
+  .note p{
+    font-size:1.1em;
+    margin-left: 54px;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  
+  }
+  
+  .note button{
+    
+    position: inherit;
+      font-family: "Raleway", sans-serif;
+      text-transform: uppercase;
+      height: 36px;
+      width: 108px;
+      color: #e45858;
+      
+      background: transparent;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      border-radius: 10px;
+      float: right;
+      
+      
+  }
+  .note button:hover{
+    background-color: #c7c2c2;
+  }
+  .header img {
+    float: left;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .header h1 {
+    position: relative;
+    margin-bottom: 6px;
+    font-size:1.1em;
+    top: 2px;
+    left: 14px;
+  }
+  @media (max-width:768px){
+    .note{
+        background: #fff;
+        border-radius: 7px;
+        box-shadow: 0 2px 5px #ccc;
+        padding: 10px;
+        width:320px;
+        margin:16px;
+       
   }
 }
