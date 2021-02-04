@@ -8,17 +8,14 @@ class Notes extends Component {
     return (
       <div className="m">
         <div className="note">
-          
           <div class="header">
-  <img src={sms} alt="logo" />
-  <h1>{title}</h1>
-</div>
+            <img src={sms} alt="logo" />
+            <h1>{title}</h1>
+          </div>
 
           <p>{update}</p>
           <button onClick={del}>Delete</button>
           <button onClick={edit}>Edit</button>
-
-          
         </div>
       </div>
     );

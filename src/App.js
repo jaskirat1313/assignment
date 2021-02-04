@@ -21,7 +21,6 @@ export class App extends Component {
               id={post.id}
               title={post.title}
               update={post.desc}
-              
               del={() => {
                 let updatePost = store.getPosts();
                 const filteredPost = updatePost.filter(
@@ -40,18 +39,17 @@ export class App extends Component {
                   (ePosts) => ePosts.id === post.id
                 );
                 // console.log(selectedItem.title)
-                store.setPosts([...filteredPost,])
+                store.setPosts([...filteredPost]);
 
-                store.setTitle(selectedItem.title)
-                  store.setDesc(selectedItem.desc)
-                  store.setId(post.id)
-                  store.setEditPost(true)
-                
-              } }
+                store.setTitle(selectedItem.title);
+                store.setDesc(selectedItem.desc);
+                store.setId(post.id);
+                store.setEditPost(true);
+              }}
             />
           ))}
       </div>
-    )
+    );
   }
 }
 
