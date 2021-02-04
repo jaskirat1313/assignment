@@ -8,8 +8,11 @@
 }
   .wrapper{
     background: url('images.jpg');
-    height: 80vh;
+    height: 90vh;
     text-align: center;
+  }
+  form{
+    margin-top: 1px;
   }
   input{
     background: transparent;
@@ -32,8 +35,8 @@
     position: relative;
     border: 1px solid #FFF;
     display: inline-block;
-    
-    padding: 22px;
+    padding: 12px;
+    width: 297px;
   }
   button{
     background: transparent;
@@ -116,4 +119,5 @@
         margin:16px;
        
   }
+ 
 }
