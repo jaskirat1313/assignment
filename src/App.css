@@ -39,7 +39,7 @@ button {
   background: transparent;
   font-size: medium;
   color: #fff;
-  top: 40vh;
+  top: 37vh;
   bottom: 40vh;
   position: relative;
   border: 1px solid #fff;
@@ -109,6 +109,6 @@ button {
     margin: 16px;
   }
   textarea {
-    padding: 33px;
+    padding: 30px;
   }
 }
