@@ -1,7 +1,6 @@
 import "./App.css";
 import React, { Component } from "react";
 import Main from "./MainNote.react";
-import Notes from "./Notes.react";
 import ObjectCard from "./ObjectCard.react";
 
 import { observer } from "mobx-react";
