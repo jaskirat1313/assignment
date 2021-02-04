@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-import Notes from "./Notes.react.js"
+import Notes from "./Notes.react"
 
 import { observer } from "mobx-react"
 

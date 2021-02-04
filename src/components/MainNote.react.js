@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import { observer } from "mobx-react";
-import store from "./stores/store";
+import store from "../stores/store";
 import { v4 as uuidv4 } from "uuid";
 
 class Main extends Component {

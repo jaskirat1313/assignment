@@ -7,8 +7,8 @@
   /* background-color: #fff; */
 }
   .wrapper{
-    background: url('images.jpg');
-    height: 90vh;
+    background: url('images/images.jpg');
+    height: 85vh;
     text-align: center;
   }
   form{

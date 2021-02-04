@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { observer } from "mobx-react";
-import sms from "./sms.png";
+import sms from "../images/sms.png";
 //import Button from '@material-ui/core/Button';
 class Notes extends Component {
   render() {
